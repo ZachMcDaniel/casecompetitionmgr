@@ -1,0 +1,444 @@
+﻿body {
+    width:100%;
+    margin: 0;
+}
+
+.btn .btn-default {
+    background-color: white;
+    color: #4E2582;
+}
+
+.btn .btn-default:hover {
+    background-color: #CCB576;
+ }
+
+.dropbtn {
+    padding-top: 12px;
+    background-color: #000000;
+    border: none;
+    color: white;
+}
+/*.dropbtn :hover {
+    color: #FFDF00;
+}*/
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    background-color: #000000;
+    color: #000000;
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    background-color: #111111;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        padding: 12px 16px;
+        color: white;
+        text-decoration: none;
+        display: block;
+    }
+
+        /* Change color of dropdown links on hover */
+        .dropdown-content a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    color: white;
+    background-color: #000000;
+    text-decoration: underline;
+}
+.none{
+    resize: none;
+}
+.center{
+    text-align:center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.left {
+    text-align: left;
+    padding-left: 6px;
+
+}
+.right {
+    text-align: right;
+    padding-right: 6px;
+}
+
+.gridcenter {
+    text-align: center;
+    align-content: center;
+    padding-left: 25px;
+}
+
+.jumbotron {
+   
+    color: #FFFFFF;
+    background-image: url('../Images/About.jpg');
+    background-position: center;
+    height: 35em;
+    width: 100%;
+    border-color: black;
+    border-width: 2px;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.black {
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-weight: bold;
+}
+
+.black2 {
+    color: black;
+    width: 100%;
+    font-weight: bold;
+}
+.white {
+    color: white;
+    font-family: Roboto-Regular;
+    font-size: 14px;
+}
+    .white:hover {
+        color: white;
+        text-decoration: underline;
+    }
+
+.whitefoot {
+    color: white;
+    font-family: Roboto-Regular;
+    font-size: 14px;
+}
+
+.gold {
+    background-color: rgb(255,205,0);
+    color: black;
+    font-family: Antonio-Regular;
+    font-size: 20px;
+    text-align: center;
+}
+
+.gold:hover{
+    text-decoration: underline;
+    color: black;
+    background-color: rgb(255,205,0);
+}
+
+.gold2 {
+    background-color: white;
+    color: black;
+    border-color: rgb(255,205,0);
+    border-width:2px;
+    font-family: Antonio-Regular;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.gold2:hover {
+    text-decoration: underline;
+    color:black;
+    background-color:white;
+    border-color: rgb(255,205,0);
+}
+
+/*Fonts*/
+@font-face {
+    font-family: 'Antonio-Regular';
+    src: url('../fonts/Antonio-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'ZillaSlab-SemiBold';
+    src: url('../fonts/ZillaSlab-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+}
+
+.button {
+    border-radius: 7.5px;
+}
+
+.txtbox {
+    min-width: 90%;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+/*Yanni try to find some wraps*/
+.editbox {
+    min-width: 100%;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.ArchBox {
+    min-width: 100%;
+    margin-left: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+}
+
+.border {
+    border-color: rgba(255,223,0,0.75);
+}
+.wide {
+    width: 75%;
+}
+.wide2 {
+    width: 50%
+}
+
+.expandbox{
+    background-color: black;
+    color: white;
+    text-align: right;
+    width: 95%;
+}
+
+.btnclear{
+    color: white;
+    background-color:transparent;
+    border: none;
+}
+
+.btnclear :hover{
+    color: yellow;
+}
+
+.expandbox :hover{
+    color:yellow;
+}
+
+.footer {
+    position: relative;
+    background-color: #000000;
+    width: 100%;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: left;
+    padding: 15px 0;
+    padding-left: 25px;
+}
+
+
+.div_text_center {
+    text-align: center;
+    margin-left: 22.5%;
+    margin-right: 30%;
+}
+
+.btnSelect {
+    background-color: rgba(255, 223, 0, 0.75);
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.padding{
+    padding-left: 10px;
+}
+
+.smpadding {
+    padding-left: 5px;
+}
+.newspadding {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left:15px;
+    padding-right: 5px;
+    text-align: left;
+    
+}
+.newsborder {
+    border: solid;
+    border-color: #000000;
+    border-width: 1.5px;
+    border-radius:15px;
+}
+
+.red{
+    color:red;
+    font-weight: bold;
+}
+
+.wide {
+    width: 100%
+}
+
+
+#white {
+    color: white;
+}
+
+    #white:hover {
+        color: white !important;
+        text-decoration: underline;
+    }
+
+#white1 {
+    color: white;
+}
+
+    #white1:hover {
+        color: white !important;
+        text-decoration: underline;
+    }
+
+#white2 {
+    color: white !important;
+}
+
+    #white2:hover {
+        color: white !important;
+        text-decoration: underline;
+    }
+
+#white3 {
+    color: white !important;
+}
+    #white3:hover {
+        color: white !important;
+        text-decoration: underline;
+    }
+
+.nav > li.customclass1 > a:hover, .nav > li.customclass1 > a:focus {
+    background-color: inherit;
+    color: white;
+    text-decoration: underline;
+}
+
+.nav > li.customclass1 > a {
+    color: white ;
+}
+
+.hyperlink {
+    color: black;
+    font-size: 20px;
+}
+.hyperlink:hover {
+    color: black;
+    text-decoration: underline;
+}
+.bottomdiv {
+    position: absolute;
+    flex: inherit;
+    bottom: 20vh;
+}
+
+.bottomrightdiv {
+    position: absolute;
+    
+    flex: inherit;
+    bottom: 20vh;
+}
+.stickydiv {
+position: sticky;
+flex: inherit;
+
+}
+
+.stickyrightdiv {
+    position: sticky;
+    float: right;
+    flex: inherit;
+}
+.rightdiv {
+    float:right
+}
+
+
+.nav navbar-nav navbar-right li a{
+    color:blue;
+}
+
+.nav navbar-nav navbar-right li a:hover {
+    color: yellow;
+}
+
+.newsss {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    padding-right: 5px;
+    text-align: left;
+}
+
+.button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 0px;
+}
+
+.Grid {
+    table-layout: fixed;
+    }
+
+    .Grid .Shorter {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        word-break: break-word;
+        white-space: nowrap;
+    }
+
+.panel-body {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    padding-right: 5px;
+    text-align: left;
+}
+
+hr.style-four {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+hr.style-five {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 10px -12px rgba(0, 0, 0, 0.5);
+}
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+/*.left{
+    
+}
+*/
