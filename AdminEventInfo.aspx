@@ -95,7 +95,7 @@
                                     <asp:RequiredFieldValidator ID="rfvEditEventStartTime" runat="server" ErrorMessage="Enter Start Time" ControlToValidate="TextBox2" Text="*" ForeColor="Red"></asp:RequiredFieldValidator>
                                 </EditItemTemplate>
                                 <ItemTemplate>
-                                    <asp:Label ID="lblEventStartTime" runat="server" Text='<%# Bind("EventStartTime") %>'></asp:Label>
+                                    <asp:Label ID="lblEventStartTime" TextMode="Time" runat="server" Text='<%# Bind("EventStartTime") %>'></asp:Label>
                                 </ItemTemplate>
                                 <FooterTemplate>
                                     <asp:TextBox ID="txtEventStartTime" runat="server"></asp:TextBox>

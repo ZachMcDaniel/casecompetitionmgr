@@ -55,12 +55,12 @@
                             <ControlStyle CssClass="center" />
                             <HeaderStyle CssClass="center" Font-Names="roboto-bold" Font-Size="12pt" />
                             <ItemStyle Font-Names="roboto-regular" Font-Size="12pt" />
-                            </asp:BoundField>
+                            </asp:BoundField>                                                                                                                              <%--edit this to add am/pm--%>
                             <asp:BoundField DataField="EventStartTime" HeaderText="Begins " SortExpression="EventStartTime" ApplyFormatInEditMode="True" DataFormatString="{0:hh\:mm}" HtmlEncode="False" >
                             <ControlStyle CssClass="Center" />
                             <HeaderStyle CssClass="center" Font-Names="roboto-bold" Font-Size="12pt" />
                             <ItemStyle Font-Names="roboto-regular" Font-Size="12pt" />
-                            </asp:BoundField>
+                            </asp:BoundField>                                                                               <%--edit this to add am/pm--%>
                             <asp:BoundField DataField="EventEndTime" HeaderText="Ends " SortExpression="EventEndTime" DataFormatString="{0:hh\:mm}" HtmlEncode="False" >
                             <ControlStyle CssClass="Center" />
                             <HeaderStyle CssClass="center" Font-Names="roboto-bold" Font-Size="12pt" />
