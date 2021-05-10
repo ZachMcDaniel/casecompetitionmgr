@@ -1,7 +1,7 @@
 # Case_Competition_Manager
 Web application for Tippie Tech at the University of Iowa.
 <h2> Web application for running and managing case competitions at the Univeristy of Iowa </h2>
-<h4>Fixes Looking Ahead</h4>
+<h4>Fixes & Quality</h4>
 <p>Edit event info and event info admin by adding am/pm to format strings in the instert box </p>
 <p>Insert box on event info admin is not persistent if all rows are deleted, you have to re-initialize from microsoft db </p>
 <p>Figure out how to allow text in news page and event info to have line breaks or bullets </p>
